@@ -17,7 +17,9 @@ $(document).ready(function() {
 		});
 	});
 	$('.noms').on('mouseover', function() {
-		$(this).html('noms!');
+		$(this).css({
+			"color" : "white"
+		});
 	});
 	$('.noms').on('click', function() {
 		$(this).css({
@@ -30,7 +32,9 @@ $(document).ready(function() {
 		})
 	});
 	$('.fluffies').on('mouseover', function() {
-		$(this).html('fluffies!');
+		$(this).css({
+			"color" : "white"
+		});
 	});
 	$('.fluffies').on('click', function() {
 		$(this).css({
@@ -43,7 +47,9 @@ $(document).ready(function() {
 		})
 	});
 	$('.frisbee').on('mouseover', function() {
-		$(this).html('frisbee!');
+		$(this).css({
+			"color" : "white"
+		});
 	});
 	$('.frisbee').on('click', function() {
 		$(this).css({
@@ -55,10 +61,12 @@ $(document).ready(function() {
 			"background-size" : "100%"
 		})
 	});
-	$('.ukulele').on('mouseover', function() {
-		$(this).html('music!');
+	$('.music').on('mouseover', function() {
+		$(this).css({
+			"color" : "white"
+		});
 	});
-	$('.ukulele').on('click', function() {
+	$('.music').on('click', function() {
 		$(this).css({
 			"color" : "white"
 		});
