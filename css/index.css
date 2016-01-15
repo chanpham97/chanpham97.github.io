@@ -56,7 +56,7 @@ p {
 	margin-left: 30%;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	.intro {
 		font-size: 30px;
 	}
@@ -68,10 +68,14 @@ p {
 	}
 }
 
-@media only screen {
+@media only screen and (max-device-width: 1024px) {
+
 	.title{
 		height: 0px;
 		color: transparent;
+	}
+	p{
+		font-size: 80px;
 	}
 	.love{
 		height: 16%;
@@ -80,5 +84,8 @@ p {
 	.miyazaki{
 		margin-top: 20%;
 		margin-left: 10%;
+	}
+	.frisbee {
+		margin-left: 70%;
 	}
 }
