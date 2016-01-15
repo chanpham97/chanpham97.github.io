@@ -1,5 +1,5 @@
 html {
-	 background-color: #ff5050;
+	 background-color : #ff5050;
 }
 
 body {
@@ -11,20 +11,44 @@ body {
 
 .title {
 	color: white;
-	height: 25%;
+	height: 20%;
+	text-align: center;
 }
 
 .love {
 	color: transparent;
 	height: 15%;
+	width: 10%;
 }
 
-h1 {
-	padding-left: 5%;
+p {
+	padding-top: 2%;
+	margin: 0;
+	font-size: 200%;
+}
+
+.intro {
+	padding-top: 3%;
+	font-size: 250%;
 	margin: 0;
 }
-p {
-	padding-top: 3%;
-	margin: 0;
-	font-size: 250%;
+
+.miyazaki {
+	margin-left: 20%;
+}
+
+.noms {
+	margin-left: 70%;
+}
+
+.fluffies {
+	margin-left: 40%;
+}
+
+.frisbee {
+	margin-left: 90%;
+}
+
+.ukulele {
+	margin-left: 30%;
 }

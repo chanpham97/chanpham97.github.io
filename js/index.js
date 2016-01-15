@@ -11,9 +11,11 @@ $(document).ready(function() {
 			"color" : "white"
 		});
 		$('html').css({
-			"background-image" : "url(css/ghibli.jpg)", 
-			"background-attachment" : "fixed",
-			"background-size" : "100%"
+			"background": "url(css/ghibli.jpg) no-repeat center center fixed",
+			"-webkit-background-size" : "cover",
+			"-moz-background-size" : "cover",
+			"-o-background-size" : "cover",
+			"background-size" : "cover"
 		});
 	});
 	$('.noms').on('mouseover', function() {
@@ -26,9 +28,12 @@ $(document).ready(function() {
 			"color" : "white"
 		});
 		$('html').css({
-			"background-image" : "url(css/porkbuns.jpg)",
-			"background-attachment" : "fixed",
-			"background-size" : "100%"
+			"background": "url(css/porkbuns.jpg) no-repeat center center fixed",
+			"-webkit-background-size" : "cover",
+			"-moz-background-size" : "cover",
+			"-o-background-size" : "cover",
+			"background-size" : "cover"
+
 		})
 	});
 	$('.fluffies').on('mouseover', function() {
@@ -41,9 +46,11 @@ $(document).ready(function() {
 			"color" : "white"
 		});
 		$('html').css({
-			"background-image" : "url(css/kitties.jpg)",
-			"background-attachment" : "fixed",
-			"background-size" : "100%"
+			"background": "url(css/kitties.jpg) no-repeat center center fixed",
+			"-webkit-background-size" : "cover",
+			"-moz-background-size" : "cover",
+			"-o-background-size" : "cover",
+			"background-size" : "cover"
 		})
 	});
 	$('.frisbee').on('mouseover', function() {
@@ -56,24 +63,28 @@ $(document).ready(function() {
 			"color" : "white"
 		});
 		$('html').css({
-			"background-image" : "url(css/frisbee.jpg)",
-			"background-attachment" : "fixed",
-			"background-size" : "100%"
+			"background": "url(css/frisbee.jpg) no-repeat center center fixed",
+			"-webkit-background-size" : "cover",
+			"-moz-background-size" : "cover",
+			"-o-background-size" : "cover",
+			"background-size" : "cover"
 		})
 	});
-	$('.music').on('mouseover', function() {
+	$('.ukulele').on('mouseover', function() {
 		$(this).css({
 			"color" : "white"
 		});
 	});
-	$('.music').on('click', function() {
+	$('.ukulele').on('click', function() {
 		$(this).css({
 			"color" : "white"
 		});
 		$('html').css({
-			"background-image" : "url(css/music.jpg)",
-			"background-attachment" : "fixed",
-			"background-size" : "100%"
+			"background": "url(css/music.jpg) no-repeat center center fixed",
+			"-webkit-background-size" : "cover",
+			"-moz-background-size" : "cover",
+			"-o-background-size" : "cover",
+			"background-size" : "cover"
 		})
 	});
 });
