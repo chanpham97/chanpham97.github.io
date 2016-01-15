@@ -67,3 +67,18 @@ p {
 		margin-left: 75%;
 	}
 }
+
+@media only screen {
+	.title{
+		height: 0px;
+		color: transparent;
+	}
+	.love{
+		height: 16%;
+		color: white;
+	}
+	.miyazaki{
+		margin-top: 20%;
+		margin-left: 10%;
+	}
+}
