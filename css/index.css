@@ -10,26 +10,29 @@ body {
 }
 
 .title {
+	margin: 0;
 	color: white;
-	height: 20%;
+	height: 25%;
 	text-align: center;
 }
 
 .love {
+	margin: 0;
 	color: transparent;
 	height: 15%;
 	width: 10%;
+	text-align: center;
 }
 
 p {
 	padding-top: 2%;
 	margin: 0;
-	font-size: 200%;
+	font-size: 30px;
 }
 
 .intro {
 	padding-top: 3%;
-	font-size: 250%;
+	font-size: 40px;
 	margin: 0;
 }
 
@@ -46,9 +49,21 @@ p {
 }
 
 .frisbee {
-	margin-left: 90%;
+	margin-left: 85%;
 }
 
 .ukulele {
 	margin-left: 30%;
+}
+
+@media (max-width: 500px) {
+	.intro {
+		font-size: 30px;
+	}
+	p {
+		font-size: 25px;
+	}
+	.frisbee {
+		margin-left: 75%;
+	}
 }
