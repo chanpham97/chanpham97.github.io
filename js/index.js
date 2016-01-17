@@ -53,6 +53,11 @@ $(document).ready(function() {
 			"background-size" : "cover"
 		})
 	});
+	$('a').on('mouseover', function() {
+		$(this).css({
+			"color" : "white"
+		})
+	});
 	$('.frisbee').on('mouseover', function() {
 		$(this).css({
 			"color" : "white"
