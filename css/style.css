@@ -9,39 +9,46 @@
         color: white;
     }
 
-#page1 {
+.page {
 	min-height: 100vh;
-	background-color: #0D47A1;
 	background-clip:content-box;
 }
 
-.info {
-	text-align: center;
-	text-decoration: none;
-	position: relative;
-	bottom: 0;
-}	
+.one {
+	background-color: #1A3A4F;
+}
+
+.two {
+	background-color: #006792;
+
+}
+
+.three {
+	background-color: #8A92A5;
+}
+
+.four {
+	background-color: #FFE3A4;
+}
+
+.five {
+	background-color: #F5A67F;
+}
+
+#footer {
+    position: fixed;
+    text-align: center;
+    padding-right: 3cm;
+    bottom: 10px;
+    width: 100%;
+}
 
 a {
 	color: white;
 }
 
-#page2 {
-	min-height: 100vh;
-	background-color: #2196F3;
-	background-clip: content-box;
-
-}
-
-
-
-h1 {
-	color: white;
+#intro {
 	text-align: center;
-}
-
-h2 {
-	color: white;
-	text-align: center;
+	vertical-align: middle;
 }
 
