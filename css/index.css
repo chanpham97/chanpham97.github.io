@@ -11,22 +11,48 @@ html {
 	font-family: VT323;
 }
 
-
 #intro {
 	text-align: center;
 	vertical-align: middle;
 }
 
-#name {
+#intro h1 {
 	font-size: 120pt;
 	color: white;
-
+	padding: 0;
+	margin: 0;
+	padding-top: 9%;
 }
 
-#name-caption {
+#intro h2 {
 	font-size: 60pt;
 	color: #ffc896;
+	padding: 0;
+	margin: 0;
+	bottom: 10px;
+}
 
+#info {
+	padding-top: 40px;
+	text-align: center;
+	color: #829dff;
+	list-style-position: inside;
+	font-size: 30pt;
+	margin-top: 0vh;
+}
+
+#info h3 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#info p {
+	margin: 0;
+	padding: 0;
+}
+
+#info a {
+	color: #829dff;
 }
 
 #footer {
@@ -37,8 +63,7 @@ html {
 	color: white;
 }
 
-a {
-	font: 40px;
+#footer a {
 	color: white;
 	font-size: 20pt;
 }
@@ -51,7 +76,7 @@ a {
     font-size: 20px;
 }
 
-h3 {
+#header h3 {
     margin-top: 10px;
     margin-bottom: 5px;
 }
