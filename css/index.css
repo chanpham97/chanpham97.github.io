@@ -1,100 +1,43 @@
-html {
-	 background-color : #ff5050;
+html { 
+	background: url(../images/forest.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	font-family: VT323;
 }
 
-body {
-	font-family: Bangers;
-	height: 100vh;
+
+#intro {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#name {
+	font-size: 120pt;
+	color: white;
+
+}
+
+#name-caption {
+	font-size: 60pt;
+	color: rgb(255,200,150);
+
+}
+
+#footer {
+	position: fixed;
+	text-align: center;
+	bottom: 10px;
 	width: 100%;
-	margin: 0;
 }
 
 a {
-	color: transparent;
-	text-decoration: none;
-}
-
-.title {
-	margin: 0;
+	font: 40px;
 	color: white;
-	height: 22%;
-	text-align: center;
-}
-
-.love {
-	margin: 0;
-	color: transparent;
-	height: 13%;
-	width: 10%;
-	text-align: center;
-}
-
-p {
-	padding-top: 2%;
-	margin: 0;
-	font-size: 30px;
-}
-
-.intro {
-	padding-top: 3%;
-	font-size: 40px;
-	margin: 0;
-}
-
-.miyazaki {
-	margin-left: 20%;
-}
-
-.noms {
-	margin-left: 70%;
-}
-
-.fluffies {
-	margin-left: 40%;
-}
-
-.rick {
-	margin-left: 5%;
-}
-
-.frisbee {
-	margin-left: 85%;
-}
-
-.ukulele {
-	margin-left: 30%;
-}
-
-@media screen and (max-width: 900px) {
-	.intro {
-		font-size: 30px;
-	}
-	p {
-		font-size: 25px;
-	}
-	.frisbee {
-		margin-left: 75%;
-	}
-}
-
-@media only screen and (max-device-width: 1024px) {
-
-	.title{
-		height: 0px;
-		color: transparent;
-	}
-	p{
-		font-size: 80px;
-	}
-	.love{
-		height: 16%;
-		color: white;
-	}
-	.miyazaki{
-		margin-top: 20%;
-		margin-left: 10%;
-	}
-	.frisbee {
-		margin-left: 70%;
-	}
+	font-size: 20pt;
 }
