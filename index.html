@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title> Chan's Corner </title>
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link href="https://fonts.googleapis.com/css?family=VT323|Vollkorn" rel="stylesheet">
+<html lang="en">
 
-	</head>
-	<body>
-		<div id="header">
-			<h3>my current go-to jams</h3>
-			<iframe src="https://open.spotify.com/embed/user/1176257815/playlist/7wceQuTAVANASrKN8wtEjf" width="200" height="150" frameborder="0" allowtransparency="true"></iframe>
-		</div>
-		<div id="intro">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chan Pham</title>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="speech-container">
+		<div class="speech-bubble">
 			<h1>Chan Pham</h1>
-			<h2>wandering, exploring, learning</h2>
-		</div>
-		<div id="info">
-			<div id="info-box">
-				<h3>some more concrete things I do</h3>
-				<p>Study @ Columbia University, NYC</p>
-				<p><a href="https://adicu.com/">ADI (Tech Club)</a></p>
-				<p>Research & Teaching Assistant</p>
-				<p><a href="https://devpost.com/tqp2001">Hackathons</a></p>
-				<p>Others: Ukulele, Doodling, Dogspotting</p>
+			<div id="typed-text" class="typed-text"></div>
+			<div class="icon-links fade-in" id="icon-links">
+				<a href="mailto:chan.pham@columbia.edu" target="_blank"><img
+						src="https://img.icons8.com/ios-filled/50/073B3A/new-post.png" alt="Email"></a>
+				<a href="https://www.linkedin.com/in/chan-pham-71819a73/" target="_blank"><img
+						src="https://img.icons8.com/ios-filled/50/073B3A/linkedin.png" alt="LinkedIn"></a>
+				<a href="https://github.com/chanpham97" target="_blank"><img
+						src="https://img.icons8.com/ios-glyphs/50/073B3A/github.png" alt="GitHub"></a>
+				<a href="/resume.pdf" target="_blank"><img src="https://img.icons8.com/ios-filled/50/073B3A/resume.png"
+						alt="Resume"></a>
+				<a href="/projects" target="_blank"><img src="https://img.icons8.com/ios-filled/50/073B3A/project.png"
+						alt="Projects"></a>
 			</div>
 		</div>
-		<div id="footer">
-				<a href="https://www.linkedin.com/in/chan-pham-71819a73" target="_blank">LinkedIn</a> | 
-				<a href="https://github.com/chanpham97" target="_blank">GitHub</a> | 
-				<a href="images/SWEResume.pdf"  target="_blank">Resume</a>
-		</div>
-	</body>
+	</div>
+
+	<img src="chan.gif" class="chan-gif">
+
+	<script src="script.js"></script>
+</body>
+
 </html>
