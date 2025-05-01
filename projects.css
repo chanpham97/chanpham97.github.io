@@ -20,7 +20,6 @@ body {
     gap: 2rem;
     padding: 2rem 0; /* Vertical padding only */
     width: calc(100% - 2rem); /* Accounts for body padding */
-    margin: 2rem auto 0;
     max-width: 1200px;
     box-sizing: border-box;
 }
@@ -132,6 +131,10 @@ body {
 
 .home-button:active {
     transform: translateY(1px);
+}
+
+a {
+    color: white;
 }
 
 /* Responsive adjustment for smaller screens */
