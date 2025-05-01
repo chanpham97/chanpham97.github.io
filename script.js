@@ -1,4 +1,4 @@
-const text = "welcome! i'm chan pham, a computer science educator with a software engineering background. i believe in designing experiences that are not only accessible but also empowering and critically conscious.";
+const text = "welcome! i'm a computer science educator with a software engineering background. i believe in designing experiences that are not only accessible but also empowering and critically conscious.";
 const secondLineText = "explore my page to learn more about what i do!";
 const typedText = document.getElementById('typed-text');
 const iconLinks = document.getElementById('icon-links');
