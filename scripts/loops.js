@@ -7,10 +7,13 @@ function clearLight(){
 }
 
 let lightbulbs = document.querySelectorAll(".lightbulb")
+let clearButton = document.querySelector("#clear")
 let runButton = document.querySelector("#run")
 let init = document.querySelector("#init")
 let stop = document.querySelector("#stop")
 let inc = document.querySelector("#inc")
+
+clearButton.addEventListener("click", clearLight)
 
 runButton.addEventListener("click", ()=>{
     clearLight()
