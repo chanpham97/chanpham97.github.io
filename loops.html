@@ -11,7 +11,8 @@
 <body>
   <h1>loopy pham-ily house</h1>
   <p>welcome! the lights in this house are controlled by a for loop-loving landlord.</p>
-  <p>play around with the dropdown to understand the <b>counter initialization</b>, the <b>looping condition</b>, and the <b>incrementer</b> expressions.</p>
+  <p>play around with the dropdown to understand the <b>counter initialization</b>, the <b>looping condition</b>, and
+    the <b>incrementer</b> expressions.</p>
   <div id="wrapper">
     <div class="top-floor lights">
       <p class="lightbulb">💡</p>
@@ -27,41 +28,64 @@
     </div>
   </div>
   <center>
-  <span>for (let i = </span>
-  <select name="init" id="init">
-    <option value="0">0</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-    <option value="7">7</option>
-  </select>
-  <span>); i < </span>
-  <select name="stop" id="stop">
-    <option value="0">0</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-    <option value="7">7</option>
-    <option value="8">8</option>
-    <option value="8">lights.length</option>
-  </select>
-  <span>); </span>
-  <select name="inc" id="inc">
-    <option value="1">i++</option>
-    <option value="1">i+=1</option>
-    <option value="2">i+=2</option>
-    <option value="3">i+=3</option>
-    <option value="4">i+=4</option>
-  </select>
-  <span>){ turnOnLight() }</span>
-  <button id="run">run code</button>
-</center>
+    <span>for (let i = </span>
+    <select name="init" id="init">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+    </select>
+    <span>); i < </span>
+        <select name="stop" id="stop">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="8">lights.length</option>
+        </select>
+        <span>); </span>
+        <select name="inc" id="inc">
+          <option value="1">i++</option>
+          <option value="2">i+=2</option>
+          <option value="3">i+=3</option>
+          <option value="4">i+=4</option>
+        </select>
+        <span>){ turnOnLight() }</span>
+        <button id="run">run code</button>
+  </center>
+
+  <h2>tasks</h2>
+  <div id="tasks">
+  assuming the first element of the array is top left, figure out what settings to turn on the following lights:
+  <ol>
+    <li>every light</li>
+    <li>every light on the top floor</li>
+    <li>every light on the bottom floor</li>
+    <li>every other light in the whole house (starting from the first one)</li>
+    <li>every other light in the whole house (starting from the second one)</li>
+    <li>every light other than the first and last one</li>
+  </ol>
+  </div>
+
+  <h2>questions</h2>
+  <div id="questions">
+  reflect on the following questions
+  <ol>
+    <li>why are the counter initialization values from 0 to 7?</li>
+    <li>if you don't know the length of your array, what should you use for your looping condition?</li>
+    <li>what happens when the looping condition goes beyond the array length?</li>
+    <li>what is another way to write i++ (look at the other dropdowns for the incrementer)?</li>
+  </ol>
+  </div>
   <a href="projects.html" class="projects-button">Back to Projects</a>
 
   <script src="scripts/loops.js"></script>
