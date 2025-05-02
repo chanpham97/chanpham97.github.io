@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>phamily house</title>
+  <link rel="stylesheet" href="loops.css">
+</head>
+
+<body>
+  <h1>loopy pham-ily house</h1>
+  <p>welcome! the lights in this house are controlled by a for loop-loving landlord.</p>
+  <p>play around with the dropdown to understand the <b>counter initialization</b>, the <b>looping condition</b>, and the <b>incrementer</b> expressions.</p>
+  <div id="wrapper">
+    <div class="top-floor lights">
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+    </div>
+    <div class="bottom-floor lights">
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+      <p class="lightbulb">💡</p>
+    </div>
+  </div>
+  <center>
+  <span>for (let i = </span>
+  <select name="init" id="init">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>
+  <span>); i < </span>
+  <select name="init" id="init">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="length">lights.length</option>
+  </select>
+  <span>); </span>
+  <select name="init" id="init">
+    <option value="i++">i++</option>
+    <option value="i+=1">i+=1</option>
+    <option value="i+=2">i+=2</option>
+    <option value="i+=3">i+=3</option>
+    <option value="i+=4">i+=4</option>
+  </select>
+  <span>){ turnOnLight() }</span>
+  <button id="run">run code</button>
+  <button id="clear">clear lights</button>
+</center>
+  <a href="projects.html" class="projects-button">Back to Projects</a>
+</body>
+
+</html>
